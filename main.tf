@@ -67,7 +67,7 @@ module "storage" {
   source = "./terraform/modules/storage"
 
   cluster_name = module.includes.cluster_name
-  rds_sg_id = module.sg.rds_sg_id
+  rds_sg_id = module.sg.rds_sg_id 
   private_subnet = [module.subnets.subnet_id_main, module.subnets.subnet_id_secondary]
 }
 
