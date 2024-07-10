@@ -57,7 +57,7 @@ exports.config = {
     browser.manage().addCookie({ name: 'cookieconsent_status', value: 'dismiss' })
     browser.manage().addCookie({ name: 'welcomebanner_status', value: 'dismiss' })
 
-    // Ensure score board shows all challenges (by default only 1-star challenges are shown)
+    // Ensure score board shows all challenges (by default only 1-star challenges are shown.)
     browser.get(basePath + '/#/score-board')
     element(by.id('btnToggleAllDifficulties')).click()
   }
