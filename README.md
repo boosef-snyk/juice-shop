@@ -123,7 +123,7 @@ Feel free to have a look at the latest version of OWASP Juice Shop:
 
 > This is a deployment-test and sneak-peek instance only! You are __not
 > supposed__ to use this instance for your own hacking endeavours! No
-> guaranteed uptime! Guaranteed stern looks if you break it!
+> guaranteed uptime! Guaranteed stern looks if you break it!!
 
 ## Documentation
 
